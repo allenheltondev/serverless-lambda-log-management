@@ -1,0 +1,14 @@
+{
+  "name": "serverless-lambda-log-management",
+  "version": "1.0.0",
+  "description": "Utility lambdas designed to set log retention and delete unused lambda logs from CloudWatch.",
+  "devDependencies": {    
+    "eslint": "^6.8.0",
+    "eslint-config-google": "^0.14.0"
+  },
+  "scripts": {
+    "deploy": "sam deploy",
+    "diagram": "cfn-dia draw.io -t template.yaml -o images/diagram.drawio -c && drawio images/diagram.drawio -o images/diagram.png"
+  },
+  "license": "MIT"
+}

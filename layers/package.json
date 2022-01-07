@@ -1,0 +1,14 @@
+{
+  "name": "dependency-layer",
+  "version": "1.0.0",
+  "description": "Lambda layer for dependencies",
+  "author": "allenheltondev",
+  "license": "MIT",
+  "dependencies": {
+    "@aws-sdk/client-cloudwatch-logs": "^3.44.0",
+    "@aws-sdk/client-lambda": "^3.45.0"
+  },
+  "scripts": {},
+  "files": [],
+  "devDependencies": {}
+}
